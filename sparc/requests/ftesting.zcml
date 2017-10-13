@@ -5,7 +5,6 @@
     
     <!-- Required ZCA Components -->
     <include package="zope.component" />
-    <include package="zope.security" />
 
     <!-- Components -->
     <include package="sparc.requests" />
