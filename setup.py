@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.1'
+version = '1.0.2'
 
 TESTS_REQUIRE = [
     'sparc.testing',
@@ -42,7 +42,9 @@ setup(name='sparc.requests',
           'setuptools',
           'zope.interface',
           'zope.component',
-          'sparc.config'
+          'zope.schema',
+          'sparc.config',
+          'requests'
       ],
       tests_require=TESTS_REQUIRE,
       extras_require={

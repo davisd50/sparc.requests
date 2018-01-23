@@ -7,3 +7,8 @@
 ++++++++++++++++++
 
 * fix dependency issue with zope.security in testing
+
+1.0.2
+++++++++++++++++++
+
+* fix requirement declarations
